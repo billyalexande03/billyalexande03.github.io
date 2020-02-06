@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  z-index: 10;
+}
+
+main {
+  width: 1300px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav main {
+  padding-top: 15px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section .left {
+  position: relative;
+  width: 98%;
+  height: 50%;
+  float: left;
+  padding: 1%;
+}
+
+section .right {
+  position: relative;
+  width: 31%;
+  height: 20%;
+  float: left;
+  padding: 0.5%;
+  margin-right:2%;
+  margin-top:1%;
+}
+
+section .right.wide {
+  margin-right:0%;
+}
+
+
+
+@media (max-width: 1200px) {
+  main {
+    width: 100vw;
+  }
+  
+  section .left {
+    width: 100%;
+    height: 100vh;
+  }
+  section .right {
+    width:100%;
+    height: 50vh;
+    margin-left:0%;
+    margin-top:1%;
+  }
+}
