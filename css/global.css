@@ -97,7 +97,7 @@ h1 {
     width: 150vw;
   }
 section.full {
-  width:150vw;
+  width:100vw;
   height: 230vh;
   background-image: url('../image/image 3.jpg');
   background-size: contain;
@@ -105,7 +105,7 @@ section.full {
   background-repeat: repeat;
 }
 section.full3 {
-  width: 150vw;
+  width: 100vw;
   height: 100vh;
   background-image: url('../image/image 3.jpg');
   background-size: cover;
@@ -115,7 +115,7 @@ section.full3 {
 
 
   section .right {
-    width:150vw;
+    width:100vw;
     height: 50vh;
     left: 50px;
     margin-left:0%;
@@ -129,8 +129,4 @@ section.full3 {
     left: 10%;
     bottom:50%;
   }
-}
-
-nav {
-  width: 150vw;
 }
