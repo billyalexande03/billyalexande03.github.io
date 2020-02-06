@@ -13,6 +13,7 @@ nav {
   width: 100vw;
   height: 50px;
   background-color: grey;
+  opacity: 0.8;
   z-index: 10;
 }
 
@@ -47,8 +48,9 @@ section {
 }
 
 section.full {
+  height: 110vh;
   background-image: url('../image/image 3.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: bottom right;
   background-repeat: repeat;
 }
@@ -59,9 +61,16 @@ section.full1 {
   background-repeat: repeat;
 }
 
+section.full3 {
+  background-image: url('../image/image 3.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
 section .melayang {
   position: absolute;
-  top: 320px;
+  top: 340px;
   left: 100px;
   width: 40%;
   height: 200px;
@@ -70,7 +79,7 @@ section .melayang {
 section .right {
   position: relative;
   left: 200px;
-  top: 10px;
+  top: 20px;
   width: 98%;
   height: 20%;
   padding: 0.5%;
@@ -87,17 +96,35 @@ h1 {
   main {
     width: 100vw;
   }
-  
+section.full {
+  height: 230vh;
+  background-image: url('../image/image 3.jpg');
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: repeat;
+}
+section.full3 {
+  height: 100vh;
+  background-image: url('../image/image 3.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+
   section .right {
     width:100%;
     height: 50vh;
+    left: 50px;
     margin-left:0%;
     margin-top:1%;
   }
   
   section .melayang {
+    width:100vw;
+    height: 100vh;
     top: 50%;
     left: 10%;
-    width: 90%;
+    bottom:50%;
   }
 }
