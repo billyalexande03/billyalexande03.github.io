@@ -94,9 +94,10 @@ h1 {
 
 @media (max-width: 1200px) {
   main {
-    width: 100vw;
+    width: 150vw;
   }
 section.full {
+  width:150vw;
   height: 230vh;
   background-image: url('../image/image 3.jpg');
   background-size: contain;
@@ -104,6 +105,7 @@ section.full {
   background-repeat: repeat;
 }
 section.full3 {
+  width: 150vw;
   height: 100vh;
   background-image: url('../image/image 3.jpg');
   background-size: cover;
@@ -113,7 +115,7 @@ section.full3 {
 
 
   section .right {
-    width:100%;
+    width:150vw;
     height: 50vh;
     left: 50px;
     margin-left:0%;
@@ -127,4 +129,8 @@ section.full3 {
     left: 10%;
     bottom:50%;
   }
+}
+
+nav {
+  width: 150vw;
 }
