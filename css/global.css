@@ -572,14 +572,14 @@ section.full8 {
   
   section.full2 {
   width: 100vw;
-  height: 140vh;
+  height: 150vh;
   background-image: url('../image/background3.gif');
   background-size: cover;
   }
 
   section.full3 {
   width: 100vw;
-  height: 190vh;
+  height: 200vh;
   background-image: url('../image/background3.gif');
   background-size: cover;
   }
@@ -593,14 +593,14 @@ section.full8 {
   
   section.full5 {
   width: 100vw;
-  height: 130vh;
+  height: 150vh;
   background-image: url('../image/background3.gif');
   background-size: cover;
   }
   
   section.full6 {
   width: 100vw;
-  height: 120vh;
+  height: 130vh;
   background-image: url('../image/background3.gif');
   background-size: cover;
   }
@@ -645,6 +645,15 @@ section.full8 {
   width: 80vw;
   margin-top: 294px;
   }
+  
+  .tiga2 {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: center;
+}
+
 
   .headingmid {
   width: 100vw;
@@ -728,7 +737,7 @@ section.full8 {
 }
 
  .kerningfour {
-  margin-top: 100px;
+  margin-top: 250px;
   margin-left: 5%;
   width: 95%;
 }
@@ -736,7 +745,7 @@ section.full8 {
 .kerningfour1 {
   margin-left: 5%;
   width:95%;
-  margin-top:20px;
+  margin-top:30px;
 }
 
 .kerningthree1 {
@@ -753,7 +762,7 @@ section.full8 {
 
 
 .kerning32 {
-  padding-top: 30px;
+  padding-top: 10px;
   margin-left: 10%;
   width: 90%;
   float: none;
