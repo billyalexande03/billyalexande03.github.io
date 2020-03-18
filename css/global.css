@@ -327,14 +327,6 @@ section.full6 {
   display: none;
 }
 
-
-.close {
-  position: relative;
-  width: 30px;
-  left: 100%;
-  background-color: transparent;
-  display: block;
-}
 .judul {
   width: 50%;
   height: 30%;
@@ -371,6 +363,7 @@ section.full6 {
   }
   section.full {
     width: 100vw;
+    height: 110vh;
     margin-top: 50px;
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -400,4 +393,106 @@ section.full6 {
     width: 50vw;
   }
   
+  .film {
+    width: 90vw;
+    height: auto;
+  }
+  
+  .filmposter {
+    width: 28vw;
+    height: 23vh;
+    margin-right: 3vw;
+    background-image: url('../image/got mobile.jpg');
+    background-position: center;
+  }
+  
+  .filmposter1 {
+    width: 28vw;
+    height: 23vh;
+    margin-right: 3vw;
+    background-image: url('../image/stranger things mobile.jpg');
+    background-position: center;
+  }
+  
+  .filmposter2 {
+    width: 28vw;
+    height: 23vh;
+    margin-right: 0vw;
+    background-image: url('../image/money heist mobile.jpg');
+    background-position: center;
+  }
+  
+  .filmposter3 {
+    width: 28vw;
+    height: 23vh;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    background-image: url('../image/sabrina mobile.jpg');
+    background-position: center;
+  }
+  
+  .filmposter4 {
+    width: 28vw;
+    height: 23vh;
+    margin-right: 3vw;
+    margin-top: 3vw;
+    background-image: url('../image/anne mobile.jpg');
+    background-position: center;
+  }
+  
+  section.full1 {
+    width: 100vw;
+    height: 170vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  section.full2 {
+    width: 100vw;
+    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  section.full3 {
+    width: 100vw;
+    height: 103vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  section.full4 {
+    width: 100vw;
+    height: 98vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  section.full5 {
+    width: 100vw;
+    height: 95vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  section.full6 {
+    width: 100vw;
+    height: 103vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  .judul {
+    width: 90vw;
+    margin-top: 25vh;
+  }
+  
+  .description {
+    width: 90vw;
+  }
   

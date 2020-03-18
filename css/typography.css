@@ -25,3 +25,15 @@ h2 {
   font-weight: 300;
   padding-top: 20px;
 }
+
+
+@media (max-width: 886px) {
+  h1 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  
+  h2 {
+    font-size: 15px;
+    line-height: 30px;
+  }
