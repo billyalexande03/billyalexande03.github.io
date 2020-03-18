@@ -19,7 +19,7 @@ nav {
 }
 
 main {
-  width: 1300px;
+  width: 90%;
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -442,7 +442,7 @@ section.full6 {
   
   section.full1 {
     width: 100vw;
-    height: 170vh;
+    height: 160vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
@@ -450,7 +450,7 @@ section.full6 {
   
   section.full2 {
     width: 100vw;
-    height: 110vh;
+    height: 120vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
