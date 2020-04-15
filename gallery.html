@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+	<title>La Casa de Papel ~ Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/typography.css" />
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" class="logo"><img src="image/money heist mask.png" alt="mask"></a>
+		<a href="season.html" class="menu1"><p>SEASON</p></a>
+		<a href="gallery.html" class="menu4"><p>GALLERY</p></a>
+		<a href="cast.html" class="menu3"><p>CAST</p></a>
+		<a href="index.html" class="menu5"><p>ABOUT</p></a>
+	</nav>
+	<section class="full3">
+		<div class="grid2">
+			<div class="gallery1" onclick="down1('0')">
+				<p>BEHIND THE SCENE</p>
+			</div>
+			<div class="gallery2" onclick="down2('0')">
+				<p>RED CARPET</p>
+			</div>
+			<div class="gallery3" onclick="down3('0')">
+				<p>SCENE</p>
+			</div>
+			<div class="gallery4" onclick="down4('0')">
+				<p>PHOTOSHOOT</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="opendown" class="imagegallery">
+		<div class="image">
+			<div id="slide1" class="img1"></div>
+			<div id="slide2" class="img2"></div>
+			<div id="slide3" class="img3"></div>
+			<div id="slide4" class="img4"></div>
+			<div id="slide5" class="img5"></div>
+			<div id="slide6" class="img6"></div>
+			<div id="slide7" class="img7"></div>
+		</div>
+		
+		<div class="choice">
+			<div id="fotoo1" class="image1" onclick="foto1('0')"></div>
+			<div id="fotoo2" class="image2" onclick="foto2('0')"></div>
+			<div id="fotoo3" class="image3" onclick="foto3('0')"></div>
+			<div id="fotoo4" class="image4" onclick="foto4('0')"></div>
+			<div id="fotoo5" class="image5" onclick="foto5('0')"></div>
+			<div id="fotoo6" class="image6" onclick="foto6('0')"></div>
+			<div id="fotoo7" class="image7" onclick="foto7('0')"></div>
+		</div>
+	</section>
+	<section id="opendown2" class="imagegallery">
+		<div class="image">
+			<div id="slide11" class="img11"></div>
+			<div id="slide22" class="img22"></div>
+			<div id="slide33" class="img33"></div>
+			<div id="slide44" class="img44"></div>
+			<div id="slide55" class="img55"></div>
+			<div id="slide66" class="img66"></div>
+			<div id="slide77" class="img77"></div>
+		</div>
+		
+		<div class="choice">
+			<div id="fotoo11" class="image1" onclick="foto11('0')"></div>
+			<div id="fotoo22" class="image2" onclick="foto22('0')"></div>
+			<div id="fotoo33" class="image3" onclick="foto33('0')"></div>
+			<div id="fotoo44" class="image4" onclick="foto44('0')"></div>
+			<div id="fotoo55" class="image5" onclick="foto55('0')"></div>
+			<div id="fotoo66" class="image6" onclick="foto66('0')"></div>
+			<div id="fotoo77" class="image7" onclick="foto77('0')"></div>
+		</div>
+	</section>
+	
+	<script>
+		function down1(x) {
+			document.getElementById('opendown').style.display = "block";
+			document.getElementById('slide1').style.display = "block";
+			window.scrollTo(0,1000);
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+			
+		}
+		function down2(x) {
+			document.getElementById('opendown2').style.display = "block";
+			document.getElementById('slide11').style.display = "block";
+			window.scrollTo(0,1000);
+			document.getElementById('opendown').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+		}
+		function down3(x) {
+			document.getElementById('opendown3').style.display = "block";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+			document.getElementById('slide1').style.display = "block";
+			window.scrollTo(0,1000);
+		}
+		function down4(x) {
+			document.getElementById('opendown4').style.display = "block";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown').style.display = "none";
+			document.getElementById('slide1').style.display = "block";
+			window.scrollTo(0,1000);
+		}
+		
+		function foto1(x) {
+			document.getElementById('slide1').style.display = "block";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "1";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "0.3";
+		}
+		
+		function foto2(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "block";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "1";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "0.3";	
+		}
+		
+		function foto3(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "block";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "1";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "0.3";
+		}
+		
+		function foto4(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "block";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "1";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "0.3";
+		}
+		
+		function foto5(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "block";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "1";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "0.3";
+		}
+		
+		function foto6(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "block";
+			document.getElementById('slide7').style.display = "none";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "1";
+			document.getElementById('fotoo7').style.opacity = "0.3";
+		}
+		
+		function foto7(x) {
+			document.getElementById('slide1').style.display = "none";
+			document.getElementById('slide2').style.display = "none";
+			document.getElementById('slide3').style.display = "none";
+			document.getElementById('slide4').style.display = "none";
+			document.getElementById('slide5').style.display = "none";
+			document.getElementById('slide6').style.display = "none";
+			document.getElementById('slide7').style.display = "block";
+			document.getElementById('fotoo1').style.opacity = "0.3";
+			document.getElementById('fotoo2').style.opacity = "0.3";
+			document.getElementById('fotoo3').style.opacity = "0.3";
+			document.getElementById('fotoo4').style.opacity = "0.3";
+			document.getElementById('fotoo5').style.opacity = "0.3";
+			document.getElementById('fotoo6').style.opacity = "0.3";
+			document.getElementById('fotoo7').style.opacity = "1";
+		}
+		
+		
+		function foto11(x) {
+			document.getElementById('slide11').style.display = "block";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "1";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "0.3";
+		}
+		
+		function foto22(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "block";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "1";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "0.3";	
+		}
+		
+		function foto33(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "block";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "1";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "0.3";
+		}
+		
+		function foto44(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "block";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "1";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "0.3";
+		}
+		
+		function foto55(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "block";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "1";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "0.3";
+		}
+		
+		function foto66(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "block";
+			document.getElementById('slide77').style.display = "none";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "1";
+			document.getElementById('fotoo77').style.opacity = "0.3";
+		}
+		
+		function foto77(x) {
+			document.getElementById('slide11').style.display = "none";
+			document.getElementById('slide22').style.display = "none";
+			document.getElementById('slide33').style.display = "none";
+			document.getElementById('slide44').style.display = "none";
+			document.getElementById('slide55').style.display = "none";
+			document.getElementById('slide66').style.display = "none";
+			document.getElementById('slide77').style.display = "block";
+			document.getElementById('fotoo11').style.opacity = "0.3";
+			document.getElementById('fotoo22').style.opacity = "0.3";
+			document.getElementById('fotoo33').style.opacity = "0.3";
+			document.getElementById('fotoo44').style.opacity = "0.3";
+			document.getElementById('fotoo55').style.opacity = "0.3";
+			document.getElementById('fotoo66').style.opacity = "0.3";
+			document.getElementById('fotoo77').style.opacity = "1";
+		}
+	</script>
+</body>
+</html>

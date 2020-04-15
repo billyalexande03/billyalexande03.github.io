@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<title>La Casa de Papel ~ Season</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/typography.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html" class="logo"><img src="image/money heist mask.png" alt="mask"></a>
+		<a href="season.html" class="menu1"><p>SEASON</p></a>
+		<a href="gallery.html" class="menu4"><p>GALLERY</p></a>
+		<a href="cast.html" class="menu3"><p>CAST</p></a>
+		<a href="index.html" class="menu5"><p>ABOUT</p></a>
+	</nav>
+	<section class="full3">
+		<div class="grid">
+			<div class="season1" onclick="down1('0')">
+				<p>SEASON</p>
+				<h1>I</h1>
+			</div>
+			<div class="season2" onclick="down2('0')">
+				<p>SEASON</p>
+				<h1>II</h1>
+			</div>
+			<div class="season3" onclick="down3('0')">
+				<p>SEASON</p>
+				<h1>III</h1>
+			</div>
+			<div class="season4" onclick="down4('0')">
+				<p>SEASON</p>
+				<h1>IV</h1>
+			</div>
+		</div>
+	</section>
+	
+	<section id="opendown1" class="container1">
+		<div class="trailer">
+			<div class="infonya">
+				<div class="episode"><h2>EPISODE 1</h2></div>
+				<div class="minute"><h3>47 min</h3></div>
+				<div class="detailss"><p>The Professor recruits a young female robber and seven other criminals for a grand heist, targeting the Royal Mint of Spain.</p></div>
+			</div>
+			<video autoplay muted class="videoo"><source src="video/S1 EP1.mp4"></video>
+		</div>
+	</section>
+	<section id="opendown2" class="container2">
+		<div class="trailer">
+			<div class="infonya">
+				<div class="episode"><h2>EPISODE 2</h2></div>
+				<div class="minute"><h3>41 min</h3></div>
+				<div class="detailss"><p>Hostage negotiator Raquel makes initial contact with the Professor. One of the hostages is a crucial part of the thieves' plans.</p></div>
+			</div>
+			<video autoplay muted class="videoo"><source src="video/S1 EP2.mp4"></video>
+		</div>
+	</section>
+	<section id="opendown3" class="container3">
+		<div class="trailer">
+			<div class="infonya">
+				<div class="episode"><h2>EPISODE 3</h2></div>
+				<div class="minute"><h3>50 min</h3></div>
+				<div class="detailss"><p>Police grab an image of the face of one of the robbers. Raquel is suspicious of the gentleman she meets at the bar.</p></div>
+			</div>
+			<video autoplay muted class="videoo"><source src="video/S1 EP2.mp4"></video>
+		</div>
+	</section>
+	<section id="opendown4" class="container4">
+		<div class="trailer">
+			<div class="infonya">
+				<div class="episode"><h2>EPISODE 4</h2></div>
+				<div class="minute"><h3>51 min</h3></div>
+				<div class="detailss"><p>Raquel suffers a personal crisis with her ex The hostages are frightened by the gunshots they overheard. The thieves argue among themselves.</p></div>
+			</div>
+			<video autoplay muted class="videoo"><source src="video/S1 EP2.mp4"></video>
+		</div>
+	</section>
+	<section id="opendown5" class="container5">
+		<div class="trailer">
+			<div class="infonya">
+				<div class="episode"><h2>EPISODE 5</h2></div>
+				<div class="minute"><h3>42 min</h3></div>
+				<div class="detailss"><p>The thieves let a medical team enter the Mint, and an undercover policeman sneaks in with them. Can the Professor stay one step ahead of Raquel?</p></div>
+			</div>
+			<video autoplay muted class="videoo"><source src="video/S1 EP2.mp4"></video>
+		</div>
+	</section>
+	<section id="bukaclass" class="trailerr">
+		<div class="trailernya">
+			<div id="fotoo1" class="vid1" onclick="foto1('0')"><p>Episode 1</p></div>
+			<div id="fotoo2" class="vid2" onclick="foto2('0')"><p>Episode 2</p></div>
+			<div id="fotoo3" class="vid3" onclick="foto3('0')"><p>Episode 3</p></div>
+			<div id="fotoo4" class="vid4" onclick="foto4('0')"><p>Episode 4</p></div>
+			<div id="fotoo5" class="vid5" onclick="foto5('0')"><p>Episode 5</p></div>
+			<div id="fotoo6" class="vid6" onclick="foto6('0')"><p>Episode 6</p></div>
+			<div id="fotoo7" class="vid7" onclick="foto7('0')"><p>Episode 7</p></div>
+		</div>
+	</section>
+	<script>
+		function down1(x) {
+			document.getElementById('opendown1').style.display = "block";
+			document.getElementById('bukaclass').style.display = "block";
+			window.scrollTo(0,1000);
+		}
+		function foto1(x) {
+			document.getElementById('opendown1').style.display = "block";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+			document.getElementById('opendown5').style.display = "none";
+		}
+		function foto2(x) {
+			document.getElementById('opendown2').style.display = "block";
+			document.getElementById('opendown1').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+			document.getElementById('opendown5').style.display = "none";
+		}
+		function foto3(x) {
+			document.getElementById('opendown3').style.display = "block";
+			document.getElementById('opendown1').style.display = "none";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+			document.getElementById('opendown5').style.display = "none";
+		}
+		function foto4(x) {
+			document.getElementById('opendown4').style.display = "block";
+			document.getElementById('opendown1').style.display = "none";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown5').style.display = "none";
+		}
+		function foto5(x) {
+			document.getElementById('opendown5').style.display = "block";
+			document.getElementById('opendown1').style.display = "none";
+			document.getElementById('opendown2').style.display = "none";
+			document.getElementById('opendown3').style.display = "none";
+			document.getElementById('opendown4').style.display = "none";
+		}
+	</script>
+</body>
+</html>

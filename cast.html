@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+	<title>La Casa de Papel ~ Cast</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/typography.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html" class="logo"><img src="image/money heist mask.png" alt="mask"></a>
+		<a href="season.html" class="menu1"><p>SEASON</p></a>
+		<a href="gallery.html" class="menu4"><p>GALLERY</p></a>
+		<a href="cast.html" class="menu3"><p>CAST</p></a>
+		<a href="index.html" class="menu5"><p>ABOUT</p></a>
+	</nav>
+	<section class="full1">
+		<div class="left">
+			<div class="tokyo" onClick="opencontent1('0')"></div>
+			<div class="lisbon" onClick="opencontent2('0')"></div>
+			<div class="professor" onClick="opencontent3('0')"></div>
+			<div class="moscow" onClick="opencontent4('0')"></div>
+			<div class="berlin" onClick="opencontent5('0')"></div>
+			<div class="nairobi" onClick="opencontent6('0')"></div>
+			<div class="rio" onClick="opencontent7('0')"></div>
+			<div class="arturo" onClick="opencontent8('0')"></div>
+			<div class="denver" onClick="opencontent9('0')"></div>
+			<div class="stockholm" onClick="opencontent10('0')"></div>
+			<div class="helsinki" onClick="opencontent11('0')"></div>
+		</div>
+		<div class="right">
+			<div id="detail1" class="tokyodetail">
+				<div class="name"><h2>Úrsula Corberó</h2></div>
+				<div class="as"><h3>as Silene Oliveira (Tokyo)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>The narrator; she was a runaway robber until scouted by the Professor to participate in his plan.</p></div>
+			</div>
+			<div id="detail2" class="lisbondetail">
+				<div class="name"><h2>Itziar Ituño</h2></div>
+				<div class="as"><h3>as Raquel Murillo (Lisbon)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>An inspector of the National Police Corps who is put in charge of the case until she joins the group in part 3.</p></div>
+			</div>
+			<div id="detail3" class="professordetail">
+				<div class="name"><h2>Álvaro Morte</h2></div>
+				<div class="as"><h3>as Sergio Marquina (The Professor)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>The mastermind of the heist who assembled the group, and Berlin's brother.</p></div>
+			</div>
+			<div id="detail4" class="moscowdetail">
+				<div class="name"><h2>Paco Tous</h2></div>
+				<div class="as"><h3>as Agustín Ramos (Moscow)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>A former miner turned criminal and Denver's father.</p></div>
+			</div>
+			<div id="detail5" class="berlindetail">
+				<div class="name"><h2>Pedro Alonso</h2></div>
+				<div class="as"><h3>as Andrés de Fonollosa (Berlin)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>A terminally ill jewel thief and the Professor's second-in-command and brother.</p></div>
+			</div>
+			<div id="detail6" class="nairobidetail">
+				<div class="name"><h2>Alba Flores</h2></div>
+				<div class="as"><h3>as Ágata Jiménez (Nairobi)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>An expert in forgery in charge of printing the money for the group.</p></div>
+			</div>
+			<div id="detail7" class="riodetail">
+				<div class="name"><h2>Miguel Herrán</h2></div>
+				<div class="as"><h3>as Aníbal Cortés (Rio)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>A young hacker and Tokyo's boyfriend.</p></div>
+			</div>
+			<div id="detail8" class="arturodetail">
+				<div class="name"><h2>Enrique Arce</h2></div>
+				<div class="as"><h3>as Arturo Román</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>A hostage and the Director of the Royal Mint of Spain.</p></div>
+			</div>
+			<div id="detail9" class="denverdetail">
+				<div class="name"><h2>Jamie Lorente</h2></div>
+				<div class="as"><h3>as Daniel / Ricardo Ramos (Denver)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>Moscow's son who joins him in the heist.</p></div>
+			</div>
+			<div id="detail10" class="stockholmdetail">
+				<div class="name"><h2>Esther Acebo</h2></div>
+				<div class="as"><h3>as Mónica Gaztambide (Stockholm)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>One of the hostages who is Arturo Román's secretary and mistress, carrying his child out of wedlock. During the robbery, she falls in love with Denver and becomes an accomplice to the group.</p></div>
+			</div>
+			<div id="detail11" class="helsinkidetail">
+				<div class="name"><h2>Darko Perić</h2></div>
+				<div class="as"><h3>as Yashin Dasáyev (Helsinki)</h3></div>
+				<div class="line"><img src="image/line white.png" alt="line"></div>
+				<div class="info"><p>A veteran Serbian soldier and Oslo's cousin.</p></div>
+			</div>
+		</div>
+	</section>
+	
+	<script>
+		function opencontent1(X) {
+			document.getElementById('detail1').style.display = "block";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		
+		function opencontent2(X) {
+			document.getElementById('detail2').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";	
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent3(X) {
+			document.getElementById('detail3').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent4(X) {
+			document.getElementById('detail4').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent5(X) {
+			document.getElementById('detail5').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent6(X) {
+			document.getElementById('detail6').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent7(X) {
+			document.getElementById('detail7').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent8(X) {
+			document.getElementById('detail8').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+		}
+		function opencontent9(X) {
+			document.getElementById('detail9').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent10(X) {
+			document.getElementById('detail10').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail11').style.display = "none";
+		}
+		function opencontent11(X) {
+			document.getElementById('detail11').style.display = "block";
+			document.getElementById('detail1').style.display = "none";
+			document.getElementById('detail2').style.display = "none";
+			document.getElementById('detail3').style.display = "none";
+			document.getElementById('detail4').style.display = "none";
+			document.getElementById('detail5').style.display = "none";
+			document.getElementById('detail6').style.display = "none";
+			document.getElementById('detail7').style.display = "none";
+			document.getElementById('detail8').style.display = "none";
+			document.getElementById('detail9').style.display = "none";
+			document.getElementById('detail10').style.display = "none";
+		}
+	</script>
+</body>
+</html>

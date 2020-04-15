@@ -1,498 +1,1545 @@
 * {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+  	padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
-
 
 nav {
-  position: fixed;
-  top: 20px;
-  left: 0;
-  width: 100vw;
-  height: 50px;
-  background-color: transparent;
-  z-index: 100;
+	position: fixed;
+	width: 100vw;
+	height: 10%;
+	background-color: black;
 }
+.logo {
+	width: 10%;
+	height: 100%;
+	margin-left: 3%;
+}
+
+.logo img {
+	width: auto;
+	height: 70%;
+	padding-top: 0.5%;
+	
+}
+
+a {
+	text-decoration: none;
+}
+.menu1 {
+	width: auto;
+	float: right;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+
+.menu3 {
+	width: auto;
+	float: right;
+	margin-left: 70px;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+.menu4 {
+	width: auto;
+	float: right;
+	margin-left: 70px;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+.menu5 {
+	width: auto;
+	float: right;
+	margin-left: 70px;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+.menu1:hover {
+	text-decoration-line: underline;
+  	text-decoration-color: white;
+}
+
+.menu2:hover {
+	text-decoration-line: underline;
+  	text-decoration-color: white;
+}
+
+.menu3:hover {
+	text-decoration-line: underline;
+  	text-decoration-color: white;
+}
+
+.menu4:hover {
+	text-decoration-line: underline;
+  	text-decoration-color: white;
+}
+
+.menu5:hover {
+	text-decoration-line: underline;
+  	text-decoration-color: white;
+}
+
 
 main {
-  width: 90%;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
 }
-
-nav main {
-  padding-top: 10px;
-  text-align: left;
-}
-
-nav main a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  padding-top: 10px;
-  padding-right: 50px;
-}
-
-nav main a:hover {
-  color: red;
-}
-
-
-.videofull iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 
 section.full {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/13 reasons why 1.jpg');
-  background-size: cover;
+  	width: 100%;
+  	height: 100vh;
+	background-image: url("../image/home.png");
+	background-size: cover;
+	background-position: bottom center;
+ 	background-color: black;
+  	display: block;
 }
-
-.bigposter {
-  width: 100%;
-  height: 65vh;
-  background-color: transparent;
-  display: block;
-}
-
-.title {
-  width: 50%;
-  height: auto;
-  padding-top: 10%;
-}
-
-.synopsis {
-  width: 35%;
-  height: auto;
-  padding-top: 2%;
-}
-
-.button {
-  width: 50%;
-  height: 30%;
-  margin-top: 4%;
-}
-
-.play {
-  width: 40%;
-  height: auto;
-  float: left;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  outline-style: solid;
-  outline-color: white;
-  outline-width: thin;
-}
-
-.play a {
-  text-decoration: none;
-  color: white;
-}
-
-.mylist a {
-  text-decoration: none;
-  color: white;
-}
-
-.mylist {
-  width: 40%;
-  height: auto;
-  float: left;
-  margin-left: 3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  text-align: center;
-  outline-style: solid;
-  outline-color: white;
-  outline-width: thin;
-}
-
-
-.film {
-  width: 100%;
-  height: 22vh;
-  background-color: transparent;
-  display: block;
-}
-
-.trending {
-  width: 100%;
-  height: 4vh;
-  background-color: transparent;
-  display: block;
-}
-
-.filmone {
-  width: 100%;
-  height: 18vh;
-  margin-top: 20;
-  background-color: transparent;
-  display: block;
-}
-
-.filmposter {
-  width: 18.4%;
-  height: 100%;
-  margin-right: 2%;
-  background-image: url('../image/got.jpg');
-  background-size: cover;
-  background-position: center;
-  float: left;
-  text-align: center;
-}
-
-.filmposter1 {
-  width: 18.4%;
-  height: 100%;
-  margin-right: 2%;
-  background-image: url('../image/stranger things.png');
-  background-size: cover;
-  background-position: center;
-  float: left;
-  text-align: center;
-}
-
-.filmposter2 {
-  width: 18.4%;
-  height: 100%;
-  margin-right: 2%;
-  background-image: url('../image/money heist.jpg');
-  background-size: cover;
-  background-position: center;
-  float: left;
-  text-align: center;
-}
-
-.filmposter3 {
-  width: 18.4%;
-  height: 100%;
-  margin-right: 2%;
-  background-image: url('../image/sabrina.jpg');
-  background-size: cover;
-  background-position: center;
-  float: left;
-  text-align: center;
-}
-
-.filmposter4 {
-  width: 18.4%;
-  height: 100%;
-  background-image: url('../image/anne.jpg');
-  background-size: cover;
-  background-position: bottom right;
-  float: left;
-  text-align: center;
-}
-
-
-
-.filmposter p {
-  padding-top: 25%;
-  color: transparent;
-}
-
-.filmposter:hover {
-  background-color: black;
-  opacity: 0.5;
-}
-
-.filmposter p:hover {
-  color: white;
-  display: block;
-}
-
-
-
-.filmposter1 p {
-  padding-top: 25%;
-  color: transparent;
-}
-
-.filmposter1:hover {
-  background-color: black;
-  opacity: 0.5;
-}
-.filmposter1 p:hover {
-  color: white;
-  display: block;
-}
-
-
-
-
-.filmposter2 p {
-  padding-top: 25%;
-  color: transparent;
-}
-
-.filmposter2:hover {
-  background-color: black;
-  opacity: 0.5;
-}
-.filmposter2 p:hover {
-  color: white;
-  display: block;
-}
-
-
-
-.filmposter3 p {
-  padding-top: 25%;
-  color: transparent;
-}
-
-.filmposter3:hover {
-  background-color: black;
-  opacity: 0.5;
-}
-.filmposter3 p:hover {
-  color: white;
-  display: block;
-}
-
-
-
-.filmposter4 p {
-  padding-top: 25%;
-  color: transparent;
-}
-.filmposter4:hover {
-  background-color: black;
-  opacity: 0.5;
-}
-.filmposter4 p:hover {
-  color: white;
-  display: block;
-}
-
 
 section.full1 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/13 reasons why 2.jpg');
-  background-size: cover;
-  display: none;
+  	width: 100%;
+  	height: 80%;
+	padding-top: 10vh;
+  	background-color: black;
+  	display: block;
 }
 
 
 section.full2 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/got1.jpg');
-  background-size: cover;
-  display: none;
+	width: 100%;
+  	height: 100vh;
+ 	background-color: black;
+  	display: block;
 }
 
+.maincast {
+	width: 35%;
+	height: 20%;
+	margin-left: 10%;
+	margin-top: 25%;
+	float: left;
+	background-color: transparent;
+	display: block;
+	outline-style: solid;
+	outline-color: white;
+}
+
+.maincast h1 {
+	text-align: center;
+	padding-top: 80px;
+	font-size: 60px;
+	line-height: 0px;
+}
+
+.maincast h1:hover {
+	font-size: 65px;
+	font-weight: 600;
+	transition: 1s;
+}
+.recurring {
+	width: 35%;
+	height: 20%;
+	margin-left: 10%;
+	margin-top: 25%;
+	float: left;
+	background-color: transparent;
+	display: block;
+	outline-style: solid;
+	outline-color: white;
+}
+
+.recurring h1 {
+	text-align: center;
+	font-size: 60px;
+	line-height: 0px;
+	padding-top: 80px;
+}
+
+.recurring h1:hover {
+	font-size: 65px;
+	font-weight: 600;
+	transition: 1s;
+}
+
+
+.mask {
+  	width: 4%;
+  	height: 10%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	padding-top: 1%;
+  	background-color: transparent;
+  	display: block;
+}
+
+.mask img {
+  	width: 100%;
+  	height: auto;
+}
+
+.mask img:hover {
+  	width: 120%;
+  	transition: 0.5s;
+}
+
+.title {
+  	width: 75%;
+  	height: 20%;
+  	margin: 13% auto 7% auto;
+  	background-color: transparent;
+  	display: block;
+}
+
+.title img {
+  	width: 100%;
+  	height: auto;
+}
+
+
+
+
+.link {
+  	width: 75%;
+ 	margin: 0 auto;
+  	display: grid;
+ 	grid-template-columns: auto auto auto auto;
+ 	grid-template-areas:
+  	'about cast gallery season';
+ 	grid-template-rows: 10vh;
+	grid-gap: 10px;
+ 	background-color: transparent;
+}
+
+.back {
+  	background-color: transparent;
+  	padding: 20px;
+}
+
+.about {
+  	grid-area: about;
+}
+
+.gallery {
+  	grid-area: gallery;
+}
+
+.cast {
+  	grid-area: cast;
+}
+
+
+
+.season {
+  	grid-area: season;
+}
+
+
+.cast a {
+	text-decoration: none;
+}
+
+.about h1 {
+  	text-align: center;
+  	color: #F2EBEB;
+  	transition: 0.5s;
+}
+
+.gallery h1 {
+  	text-align: center;
+  	color: #F2EBEB;
+  	transition: 1s;
+}
+
+.cast h1 {
+  	text-align: center;
+  	color: #F2EBEB;
+  	transition: 1.5s;
+}
+
+
+
+.season h1 {
+  	text-align: center;
+  	color: #F2EBEB;
+  	transition: 2.5s;
+}
+
+
+
+
+.about h1:hover {
+  	color: red;
+  	font-size: 20px;
+  	text-decoration-line: line-through;
+  	text-decoration-color: black;
+  	transition: 0.3s;
+}
+
+.gallery h1:hover {
+  	color: red;
+  	font-size: 20px;
+  	text-decoration-line: line-through;
+  	text-decoration-color: black;
+  	transition: 0.3s;
+}
+
+.cast h1:hover {
+  	color: red;
+  	font-size: 20px;
+  	text-decoration-line: line-through;
+  	text-decoration-color: black;
+  	transition: 0.3s;
+}
+
+
+
+.season h1:hover {
+  	color: red;
+  	font-size: 20px;
+  	text-decoration-line: line-through;
+  	text-decoration-color: black;
+  	transition: 0.3s;
+}
+
+
+
+
+.left {
+	width: 25%;
+	height: 90vh;;
+	background-color: black;
+	display: block;
+	float: left;
+	overflow-y: scroll;
+}
+
+.left::-webkit-scrollbar {
+	display: none;
+}
+
+
+.tokyo {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/tokyo portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.tokyo h1{
+	padding-top: 130px;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.tokyo:hover {
+	background-image: url("../image/tokyo portrait.jpg");
+}
+
+
+
+.lisbon {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/lisbon portait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.lisbon h1{
+	padding-top: 130px;
+	padding-left: 10%;
+	font-size: 20px
+}
+
+.lisbon:hover {
+	background-image: url("../image/lisbon portait.jpg");
+}
+
+
+
+.professor {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/professor portait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.professor h1{
+	padding-top: 130px;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.professor:hover {
+	background-image: url("../image/professor portait.jpg");
+}
+
+
+
+.moscow {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/moscow portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.moscow h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.moscow:hover {
+	background-image: url("../image/moscow portrait.jpg");
+}
+
+
+
+.berlin {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/berlin portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.berlin h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.berlin:hover {
+	background-image: url("../image/berlin portrait.jpg");
+}
+
+
+
+.nairobi {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/nairobi portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.nairobi h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.nairobi:hover {
+	background-image: url("../image/nairobi portrait.jpg");
+}
+
+
+
+.rio {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/rio portrait.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.rio h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.rio:hover {
+	background-image: url("../image/rio portrait.png");
+}
+
+
+
+.arturo {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/arturo potrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.arturo h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.arturo:hover {
+	background-image: url("../image/arturo potrait.jpg");
+}
+
+
+.denver {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/denver portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.denver h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+.denver:hover {
+	background-image: url("../image/denver portrait.jpg");
+}
+
+
+
+.stockholm{
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/stockholm portrait.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.stockholm:hover {
+	background-image: url("../image/stockholm portrait.png");
+}
+
+.stockholm h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+
+
+.helsinki {
+	width: 100%;
+	height: 25vh;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/helsinki portrait.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.helsinki h1{
+	padding-top: 45%;
+	padding-left: 10%;
+	font-size: 20px;
+}
+
+
+.helsinki:hover {
+	background-image: url("../image/helsinki portrait.jpg");
+}
+
+
+
+.right {
+  	width: 75%;
+  	height: 90vh;
+	background-color: black;
+	display: block;
+	float: left;
+}
+
+.tokyodetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/tokyo back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: block;
+}
+
+.lisbondetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/lisbon back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.professordetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/professor back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.moscowdetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/moscow back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.berlindetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/berlin back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.nairobidetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/nairobi back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.riodetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/rio back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.arturodetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/arturo back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.denverdetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/denver back.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.stockholmdetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/stockholm back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+
+.helsinkidetail {
+	width: 100%;
+	height: 90vh;;
+	background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url("../image/helsinki back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: none;
+}
+.name {
+	position: relative;
+	width: 30%;
+	margin-left: 5%;
+	padding-top: 15%;
+	transition: 2s;
+}
+
+.as {
+	width: 40%;
+	margin-left: 6%;
+	transition: 2.5s;
+}
+
+.line {
+	width: 40%;
+	padding-top: 2%;
+	margin-left: 5%;
+	transition: 1s;
+}
+.line img{
+	width: 100%;
+	height: 3px;
+}
+
+.info {
+	width: 40%;
+	margin-left: 5%;
+	padding-top: 2%
+}
+
+
 section.full3 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/stranger things.jpg');
-  background-size: cover;
-  display: none;
+	width: 100%;
+	height: 89.5vh;
+	padding-top: 6%;
+	background-color: black;
+}
+
+.grid {
+	width: 85%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	grid-template-areas: 
+		'season1 season2'
+		'season3 season4';
+	grid-gap: 20px;
+}
+
+
+.season1 {
+	grid-area: season1;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 1.jpg");
+	background-size: cover;
+	
+}
+
+.season1:hover {
+	background-image: url("../image/choice 1.jpg");	
+}
+
+.season1 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 130px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.season1 h1 {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.season2 {
+	grid-area: season2;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 2.jpg");
+	background-size: cover;
+}
+
+.season2:hover {
+	background-image: url("../image/choice 2.jpg");	
+}
+
+.season2 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 130px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.season2 h1 {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+
+.season3 {
+	grid-area: season3;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 3.jpg");
+	background-size: cover;
+}
+
+.season3:hover {
+	background-image: url("../image/choice 3.jpg");
+}
+
+.season3 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 130px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.season3 h1 {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+
+.season4 {
+	grid-area: season4;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 4.jpg");
+	background-size: cover;
+}
+
+.season4:hover {
+	background-image: url("../image/choice 4.jpg");	
+}
+.season4 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 130px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.season4 h1 {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+section.imagegallery {
+	width: 100%;
+	height: 90vh;
+	background-color: antiquewhite;
+	display: none;
+}
+
+.image {
+	width: 100%;
+	height: 80%;
+	background-color: black;
+	display: block;
+	overflow-x: scroll;
+}
+
+.image::-webkit-scrollbar {
+	display: none;
+}
+
+.img1 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc1.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img2 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc2.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img3 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc3.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img4 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc4.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img5 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc5.png");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
+
+.img6 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc6.jpg");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
+
+.img7 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc7.jpg");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
+
+.choice {
+	width: 100%;
+	height: 20%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20% 20% 20%;
+	grid-template-rows: 100%;
+	grid-template-areas: 
+		'image1 image2 image3 image4 image5 image6 image7';
+	overflow-x: scroll;
+	background-color: black;
+}
+
+.choice::-webkit-scrollbar {
+	display: none;
+}
+
+.image1 {
+	grid-area: image1;
+	opacity: 0.3;
+	background-image: url("../image/bhc1.jpg");
+	background-size: cover;
+}
+
+.image1:hover {
+	opacity: 1;
+}
+
+.image2 {
+	grid-area: image2;
+	opacity: 0.3;
+	background-image: url("../image/bhc2.jpg");
+	background-size: cover;
+}
+
+.image2:hover {
+	opacity: 1;
+}
+
+
+.image3 {
+	grid-area: image3;
+	opacity: 0.3;
+	background-image: url("../image/bhc3.jpg");
+	background-size: cover;
+}
+
+.image3:hover {
+	opacity: 1;
+}
+
+.image4 {
+	grid-area: image4;
+	opacity: 0.3;
+	background-image: url("../image/bhc4.jpg");
+	background-size: cover;
+}
+
+.image4:hover {
+	opacity: 1;
+}
+
+
+.image5 {
+	grid-area: image5;
+	opacity: 0.3;
+	background-image: url("../image/bhc5.png");
+	background-size: cover;
+}
+
+.image5:hover {
+	opacity: 1;
+}
+
+.image6 {
+	grid-area: image6;
+	opacity: 0.3;
+	background-image: url("../image/bhc6.jpg");
+	background-size: cover;
+}
+
+.image6:hover {
+	opacity: 1;
+}
+
+
+.image7 {
+	grid-area: image7;
+	opacity: 0.3;
+	background-image: url("../image/bhc7.jpg");
+	background-size: cover;
+}
+
+.image7:hover {
+	opacity: 1;
+}
+
+
+.prev {
+	position: absolute;
+  	width: auto;
+	margin-top: 250px;
+  	padding: 16px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	border-radius: 0 3px 3px 0;
+ 	user-select: none;
+ 	-webkit-user-select: none;
+}
+
+.next {
+	position: absolute;
+  	width: auto;
+	margin-top: 250px;
+	margin-left: 1383px;
+  	padding: 16px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	border-radius: 0 3px 3px 0;
+ 	user-select: none;
+ 	-webkit-user-select: none;
+}
+
+.prev:hover, .next:hover {
+  background-color: red;
+}
+
+
+
+
+
+section.container1 {
+	width: 100%;
+	height: 70vh;
+	display: none;
+	background-color: black;
+}
+
+section.container2 {
+	width: 100%;
+	height: 70vh;
+	display: none;
+	background-color: black;
+}
+
+section.container3 {
+	width: 100%;
+	height: 70vh;
+	display: none;
+	background-color: black;
+}
+
+
+section.container4 {
+	width: 100%;
+	height: 70vh;
+	display: none;
+	background-color: black;
+}
+
+
+section.container5 {
+	width: 100%;
+	height: 70vh;
+	display: none;
+	background-color: black;
+}
+
+section.trailerr {
+	width: 100%;
+	height: 20vh;
+	display: none;
+}
+
+.trailer {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.trailer1 {
+	width: 100%;
+	height: 75%;
+	background-color: black;
+}
+
+.trailer2 {
+	width: 100%;
+	height: 75%;
+	background-color: black;
+}
+
+.infonya {
+	width: 28%;
+	height: 100%;
+	float: left;
+	background-color: black;
+}
+
+.episode {
+	width: 80%;
+	margin-top: 150px;
+	margin-left: 20%;
+}
+
+.episode h2 {
+	font-size: 50px;
+	line-height: 40px;
+}
+
+.minute {
+	width: 80%;
+	margin-left: 20%;
+	margin-top: 15px;
+}
+
+.minute h3 {
+	font-size: 17px;
+}
+
+
+.detailss {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+
+.detailss p{
+	font-size: 15px;
+	border-top: solid;
+	padding-top: 20px;
+}
+
+.videoo {
+	height: 100%;
+	float: left;
+}
+
+.pilihan {
+	width: 100%;
+	height: 25%;
+	background-color: aquamarine;
+}
+
+.trailernya {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20% 20% 20%;
+	grid-template-rows: 100%;
+	grid-template-areas: 
+		'vid1 vid2 vid3 vid4 vid5 vid6 vid7';
+	overflow-x: scroll;
+	background-color: black;
+}
+
+.trailernya::-webkit-scrollbar {
+	display: none;
+}
+
+.vid1 {
+	grid-area: vid1;
+	opacity: 0.3;
+	background-image: url("../image/choice 1.jpg");
+	background-size: cover;
+}
+
+.vid1:hover {
+	opacity: 1;
+}
+
+.vid1 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.vid2 {
+	grid-area: vid2;
+	opacity: 0.3;
+	background-image: url("../image/choice 2.jpg");
+	background-size: cover;
+}
+
+.vid2:hover {
+	opacity: 1;
+}
+
+.vid2 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.vid3 {
+	grid-area: vid3;
+	opacity: 0.3;
+	background-image: url("../image/choice 3.jpg");
+	background-size: cover;
+}
+
+.vid3:hover {
+	opacity: 1;
+}
+
+.vid3 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+.vid4 {
+	grid-area: vid4;
+	opacity: 0.3;
+	background-image: url("../image/choice 4.jpg");
+	background-size: cover;
+}
+
+.vid4:hover {
+	opacity: 1;
+}
+
+.vid4 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+.vid5 {
+	grid-area: vid5;
+	opacity: 0.3;
+	background-image: url("../image/choice 5.jpg");
+	background-size: cover;
+}
+
+.vid5:hover {
+	opacity: 1;
+}
+
+.vid5 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.vid6 {
+	grid-area: vid6;
+	opacity: 0.3;
+	background-image: url("../image/choice 6.jpg");
+	background-size: cover;
+}
+
+
+.vid6:hover {
+	opacity: 1;
+}
+
+.vid6 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+.vid7 {
+	grid-area: vid7;
+	opacity: 0.3;
+	background-image: url("../image/choice 7.jpg");
+	background-size: cover;
+}
+
+.vid7:hover {
+	opacity: 1;
+}
+
+.vid7 p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+.margin {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 section.full4 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/money heist 1.jpg');
-  background-size: cover;
-  display: none;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	display: block;
 }
 
-section.full5 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/sabrina1.jpg');
-  background-size: cover;
-  display: none;
+.container3 {
+	width: 70%;
+	height: 80%;
+	padding-top: 10%;
+	float: left;
 }
 
-section.full6 {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right, black, rgba(255,0,0,0)), url('../image/anne 2.jpg');
-  background-size: cover;
-  display: none;
+.trailers4 {
+	width: 100%;
+	height: 100%;
 }
 
-.judul {
-  width: 50%;
-  height: 30%;
-  margin-top: 10vh;
-  background-color: transparent;
-  display: block;
+.trailers44 {
+	width: 100%;
+	height: 100%;
 }
 
-.description {
-  width: 70%;
-  height: 20%;
-  margin-top: 2vh;
-  background-color: transparent;
-  display: block;
+.watchthis {
+	width: 30%;
+	height: 100%;
+	float: left;
 }
 
-@media (max-width: 886px) {
-  main {
-    width: 90vw;
-  }
-  
-  nav {
-    top: 0px;
-    background-color: black;
-  }
-  
-  nav main {
-    padding-top: 20px;
-    text-align: center;
-  }
-  
-  nav main a {
-    padding-right: 0px;
-  }
-  section.full {
-    width: 100vw;
-    height: 110vh;
-    margin-top: 50px;
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  .bigposter {
-    width: 90vw;
-    height: 25vh;
-  }
-  
-  .title {
-    width: 80vw;
-    margin-top: 150px;
-  }
-  
-  .synopsis {
-    width: 90vw;
-    display: none;
-  }
-  
-  .button {
-    width: 90vw;
-  }
-  
-  .play {
-    width: 50vw;
-  }
-  
-  .film {
-    width: 90vw;
-    height: auto;
-  }
-  
-  .filmposter {
-    width: 28vw;
-    height: 23vh;
-    margin-right: 3vw;
-    background-image: url('../image/got mobile.jpg');
-    background-position: center;
-  }
-  
-  .filmposter1 {
-    width: 28vw;
-    height: 23vh;
-    margin-right: 3vw;
-    background-image: url('../image/stranger things mobile.jpg');
-    background-position: center;
-  }
-  
-  .filmposter2 {
-    width: 28vw;
-    height: 23vh;
-    margin-right: 0vw;
-    background-image: url('../image/money heist mobile.jpg');
-    background-position: center;
-  }
-  
-  .filmposter3 {
-    width: 28vw;
-    height: 23vh;
-    margin-right: 3vw;
-    margin-top: 3vw;
-    background-image: url('../image/sabrina mobile.jpg');
-    background-position: center;
-  }
-  
-  .filmposter4 {
-    width: 28vw;
-    height: 23vh;
-    margin-right: 3vw;
-    margin-top: 3vw;
-    background-image: url('../image/anne mobile.jpg');
-    background-position: center;
-  }
-  
-  section.full1 {
-    width: 100vw;
-    height: 160vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  section.full2 {
-    width: 100vw;
-    height: 120vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  section.full3 {
-    width: 100vw;
-    height: 103vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  section.full4 {
-    width: 100vw;
-    height: 98vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  section.full5 {
-    width: 100vw;
-    height: 95vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  
-  section.full6 {
-    width: 100vw;
-    height: 103vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-  .judul {
-    width: 90vw;
-    margin-top: 25vh;
-  }
-  
-  .description {
-    width: 90vw;
-  }
-  
+.juduls4 {
+	width: 95%;
+	height: 20%;
+	padding-top: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.juduls4 h1 {
+	font-size: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.ss4 {
+	width: 100%;
+	height: 10%;
+}
+
+.ss4 h3 {
+	text-align: center;
+	font-size: 20px;
+}
+
+.watchnow {
+	width: 70%;
+	height: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(123,0,2,1.00);
+}
+
+.watchnow:hover {
+	background-color: transparent;
+	border: solid;
+	border-width: thin;
+	border-color: white;
+}
+
+.watchnow p {
+	padding: 15px 10px 10px 10px ;
+	text-align: center;
+	font-size: 25px;
+}
+
+.grid2 {
+	width: 85%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	grid-template-areas: 
+		'gallery1 gallery2'
+		'gallery3 gallery4';
+	grid-gap: 20px;
+}
+
+
+.gallery1 {
+	grid-area: gallery1;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/behindthescne.jpg");
+	background-size: cover;
+	
+}
+
+.gallery1:hover {
+	background-image: url("../image/behindthescne.jpg");	
+}
+
+.gallery1 p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 110px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+	line-height: 50px;
+}
+
+.gallery2 {
+	grid-area: gallery2;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/redcarpet.jpg");
+	background-size: cover;
+}
+
+.gallery2:hover {
+	background-image: url("../image/redcarpet 2.jpg");	
+}
+
+.gallery2 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 150px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.gallery3 {
+	grid-area: gallery3;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/scene.png");
+	background-size: cover;
+}
+
+.gallery3:hover {
+	background-image: url("../image/scene1.jpg");
+}
+
+.gallery3 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 150px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+
+
+.gallery4 {
+	grid-area: gallery4;
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/photoshoot.jpg");
+	background-size: cover;
+}
+
+.gallery4:hover {
+	background-image: url("../image/photoshoot.jpg");
+	background-position: center;
+}
+.gallery4 p {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 150px;
+	text-shadow: 4px 4px 4px black;
+	transition: 2s;
+	letter-spacing: 5px;
+}
+
+.img11 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/rc1.jpg");
+	background-size: cover;
+	background-position: top;
+	display: none;
+}
+
+.img22 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc2.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img33 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc3.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img44 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc4.jpg");
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.img55 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc5.png");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
+
+.img66 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc6.jpg");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
+
+.img77 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bhc7.jpg");
+	background-size: cover;
+	background-position: top center;
+	display: none;
+}
