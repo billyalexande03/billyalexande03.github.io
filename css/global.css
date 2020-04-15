@@ -1783,12 +1783,33 @@ section.group1 {
 	.kiri {
 		width: 100%;
 		height: 10%;
-		overflow-x: scroll;
-		overflow-y: hidden;
+		display: grid;
+		grid-template-columns: 30% 30% 30% 30% 30% 30% 30%;
+		grid-template-rows: 100%;
+		grid-template-areas: 'block1 block2 block3 block4 block5 block6';
 	}
 	
+	.block1 {
+		grid-area: block1;
+	}
+	.block2 {
+		grid-area: block2;
+	}
+	.block3 {
+		grid-area: block3;
+	}
+	.block4 {
+		grid-area: block4;
+	}
+	.block5 {
+		grid-area: block5;
+	}
+	.block6 {
+		grid-area: block6;
+	}
+	
+	
 	.block1, .block2, .block3, .block4, .block5, .block6 {
-		float: left;
 		height: 100%;
 		width: 30%;
 	}
@@ -1904,6 +1925,99 @@ section.group1 {
 		padding-top: 40%;
 		font-size: 17px;
 	}
+	
+	.left {
+		width: 100%;
+		height: 20%;
+		grid-template-columns: 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30%;
+		grid-template-rows: 100%;
+		grid-template-areas: 
+			'area1 area2 area3 area4 area5 area6 area7 area8 area9 area10 area11';
+		overflow-x: scroll;
+		display: grid;
+	}
+	
+	.tokyo, .lisbon, .professor, .moscow, .berlin, .nairobi, .rio, .arturo, .denver, .stockholm, .helsinki {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.tokyo {
+		grid-area: area1;
+	}
+	
+	.lisbon {
+		grid-area: area2;
+	}
+	
+	.professor {
+		grid-area: area3;
+	}
+	
+	.moscow {
+		grid-area: area4;
+	}
+	
+	.berlin {
+		grid-area: area5;
+	}
+	
+	.nairobi {
+		grid-area: area6;
+	}
+	
+	.rio {
+		grid-area: area7;
+	}
+	
+	.arturo {
+		grid-area: area8;
+	}
+	
+	.denver {
+		grid-area: area9
+	}
+	
+	.stockholm {
+		grid-area: area10;
+	}
+	.helsinki {
+		grid-area: area11;
+	}
+	
+	.right {
+		width: 100%;
+		height: 80%;
+	}
+	
+	.name {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto
+	}
+	
+	.as {
+		margin-left: 7.5%;
+		width: 85%;
+	}
+	
+	.line {
+		margin-left: 7.5%;
+	}
+	
+	.info {
+		width: 85%;
+		margin-left: 7.5%;
+	}
+	
+	section.full1 {
+		height: 90vh;
+	}
+	
+	.tokyodetail, .lisbondetail, .professordetail, .moscowdetail, .berlindetail, .nairobidetail, .riodetail, .arturodetail, .denverdetail, .stockholmdetail, .helsinkidetail {
+		height: 100%;
+	}
+	
 }
 
 
