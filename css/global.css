@@ -7,10 +7,9 @@ html {
   	scroll-behavior: smooth;
 }
 
-nav {
-	position: fixed;
+section.navigation {
 	width: 100vw;
-	height: 10%;
+	height: 10vh;
 	background-color: black;
 }
 .logo {
@@ -107,8 +106,7 @@ section.full {
 
 section.full1 {
   	width: 100%;
-  	height: 80%;
-	padding-top: 10vh;
+  	height: 90vh;
   	background-color: black;
   	display: block;
 }
@@ -698,8 +696,7 @@ section.full2 {
 
 section.full3 {
 	width: 100%;
-	height: 89.5vh;
-	padding-top: 6%;
+	height: 90vh;
 	background-color: black;
 }
 
@@ -721,7 +718,7 @@ section.full3 {
 
 .season1 {
 	grid-area: season1;
-	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 1.jpg");
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/foto2.jpg");
 	background-size: cover;
 	
 }
@@ -755,7 +752,7 @@ section.full3 {
 }
 
 .season2:hover {
-	background-image: url("../image/choice 2.jpg");	
+	background-image: url("../image/foto4.jpg");	
 }
 
 .season2 p {
@@ -779,7 +776,7 @@ section.full3 {
 
 .season3 {
 	grid-area: season3;
-	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 3.jpg");
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/foto3.jpg");
 	background-size: cover;
 }
 
@@ -808,12 +805,12 @@ section.full3 {
 
 .season4 {
 	grid-area: season4;
-	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/choice 4.jpg");
+	background-image: linear-gradient(to top, black, rgba(255,0,0,0)), url("../image/foto1.jpg");
 	background-size: cover;
 }
 
 .season4:hover {
-	background-image: url("../image/choice 4.jpg");	
+	background-image: url("../image/foto2.jpg");	
 }
 .season4 p {
 	text-align: center;
@@ -855,7 +852,7 @@ section.imagegallery {
 .img1 {
 	width: 100%;
 	height: 100%;
-	background-image: url("../image/bhc1.jpg");
+	background-image: url("../image/foto1.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -864,7 +861,7 @@ section.imagegallery {
 .img2 {
 	width: 100%;
 	height: 100%;
-	background-image: url("../image/bhc2.jpg");
+	background-image: url("../image/foto2.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -873,7 +870,7 @@ section.imagegallery {
 .img3 {
 	width: 100%;
 	height: 100%;
-	background-image: url("../image/bhc3.jpg");
+	background-image: url("../image/foto3.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -882,7 +879,7 @@ section.imagegallery {
 .img4 {
 	width: 100%;
 	height: 100%;
-	background-image: url("../image/bhc4.jpg");
+	background-image: url("../image/foto4.jpg");
 	background-size: cover;
 	background-position: center;
 	display: none;
@@ -934,7 +931,7 @@ section.imagegallery {
 .image1 {
 	grid-area: image1;
 	opacity: 0.3;
-	background-image: url("../image/bhc1.jpg");
+	background-image: url("../image/foto1.jpg");
 	background-size: cover;
 }
 
@@ -945,7 +942,7 @@ section.imagegallery {
 .image2 {
 	grid-area: image2;
 	opacity: 0.3;
-	background-image: url("../image/bhc2.jpg");
+	background-image: url("../image/foto2.jpg");
 	background-size: cover;
 }
 
@@ -957,7 +954,7 @@ section.imagegallery {
 .image3 {
 	grid-area: image3;
 	opacity: 0.3;
-	background-image: url("../image/bhc3.jpg");
+	background-image: url("../image/foto3.jpg");
 	background-size: cover;
 }
 
@@ -968,7 +965,7 @@ section.imagegallery {
 .image4 {
 	grid-area: image4;
 	opacity: 0.3;
-	background-image: url("../image/bhc4.jpg");
+	background-image: url("../image/foto4.jpg");
 	background-size: cover;
 }
 
@@ -1009,38 +1006,6 @@ section.imagegallery {
 
 .image7:hover {
 	opacity: 1;
-}
-
-
-.prev {
-	position: absolute;
-  	width: auto;
-	margin-top: 250px;
-  	padding: 16px;
-  	color: white;
-  	font-weight: bold;
-  	font-size: 20px;
-  	border-radius: 0 3px 3px 0;
- 	user-select: none;
- 	-webkit-user-select: none;
-}
-
-.next {
-	position: absolute;
-  	width: auto;
-	margin-top: 250px;
-	margin-left: 1383px;
-  	padding: 16px;
-  	color: white;
-  	font-weight: bold;
-  	font-size: 20px;
-  	border-radius: 0 3px 3px 0;
- 	user-select: none;
- 	-webkit-user-select: none;
-}
-
-.prev:hover, .next:hover {
-  background-color: red;
 }
 
 
@@ -1543,3 +1508,271 @@ section.full4 {
 	background-position: top center;
 	display: none;
 }
+
+
+section.group1 {
+	width: 100%;
+	height: 90vh;
+	background-color: black;
+	background-image: url("../image/logo opacity-01.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.kiri {
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow-y: scroll;
+}
+
+.kiri::-webkit-scrollbar {
+	display: none;
+}
+
+.block1 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block2 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block3 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.block4 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block5 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block6 {
+	width: 95%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block1:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+.block2:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+.block3:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+.block4:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+.block5:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+.block6:hover {
+	border: solid;
+	border-color: white;
+	border-width: thin;
+}
+
+
+.block1 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.block2 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.block3 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.block4 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.block5 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.block6 p {
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.batasan {
+	width: 90%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.kanan {
+	width: 80%;
+	height: 100%;
+	float: left;
+	
+}
+
+.content1 {
+	width: 100%;
+	height: 100%;
+}
+
+.content2 {
+	width: 100%;
+	height: 100%;
+	display: none;
+	overflow-y: scroll;
+}
+
+.up1 {
+	width: 100%;
+	height: 20%;
+}
+
+.up1 h1 {
+	font-size: 50px;
+	padding-top: 5%;
+	text-align: center;
+}
+
+.baca1 {
+	width: 55%;
+	height: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.baca1 p {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 30%;
+	line-height: 30px;
+}
+
+
+.up2 {
+	width: 100%;
+	height: 10%;
+}
+
+.up2 h1 {
+	font-size: 50px;
+	padding-top: 5%;
+}
+
+.baca2 {
+	width: 90%;
+	height: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.baca2 p {
+	font-size: 20px;
+	padding-top: 10%;
+	line-height: 40px;
+}
+
+
+@media (max-width: 886px) {
+	section.full {
+		background-image: url("../image/potrait poster.png");
+		background-size: cover;
+		background-position: bottom center;
+	}
+	
+	.mask {
+		width: 15%;
+		display: none;
+	}
+	
+	.link {
+		margin: 0%;
+		padding-top: 5%;
+		width: 100%;
+	}
+	
+	.back {
+		padding: 5px;
+	}
+	
+	.watchthis {
+		width: 100%;
+		height: 50%;
+	}
+	
+	.container3 {
+		width: 100%;
+		height: 50%;
+		padding-top: 0%;
+	}
+	
+	.juduls4 {
+		padding-top: 20%;
+		height: 50%
+	}
+	
+	.watchnow {
+		height: 25%;
+		padding-top: 5%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

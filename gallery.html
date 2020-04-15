@@ -8,13 +8,13 @@
 </head>
 
 <body>
-	<nav>
+	<section class="navigation">
 		<a href="index.html" class="logo"><img src="image/money heist mask.png" alt="mask"></a>
 		<a href="season.html" class="menu1"><p>SEASON</p></a>
 		<a href="gallery.html" class="menu4"><p>GALLERY</p></a>
 		<a href="cast.html" class="menu3"><p>CAST</p></a>
-		<a href="index.html" class="menu5"><p>ABOUT</p></a>
-	</nav>
+		<a href="about.html" class="menu5"><p>ABOUT</p></a>
+	</section>
 	<section class="full3">
 		<div class="grid2">
 			<div class="gallery1" onclick="down1('0')">
@@ -51,27 +51,6 @@
 			<div id="fotoo5" class="image5" onclick="foto5('0')"></div>
 			<div id="fotoo6" class="image6" onclick="foto6('0')"></div>
 			<div id="fotoo7" class="image7" onclick="foto7('0')"></div>
-		</div>
-	</section>
-	<section id="opendown2" class="imagegallery">
-		<div class="image">
-			<div id="slide11" class="img11"></div>
-			<div id="slide22" class="img22"></div>
-			<div id="slide33" class="img33"></div>
-			<div id="slide44" class="img44"></div>
-			<div id="slide55" class="img55"></div>
-			<div id="slide66" class="img66"></div>
-			<div id="slide77" class="img77"></div>
-		</div>
-		
-		<div class="choice">
-			<div id="fotoo11" class="image1" onclick="foto11('0')"></div>
-			<div id="fotoo22" class="image2" onclick="foto22('0')"></div>
-			<div id="fotoo33" class="image3" onclick="foto33('0')"></div>
-			<div id="fotoo44" class="image4" onclick="foto44('0')"></div>
-			<div id="fotoo55" class="image5" onclick="foto55('0')"></div>
-			<div id="fotoo66" class="image6" onclick="foto66('0')"></div>
-			<div id="fotoo77" class="image7" onclick="foto77('0')"></div>
 		</div>
 	</section>
 	
@@ -229,125 +208,6 @@
 			document.getElementById('fotoo7').style.opacity = "1";
 		}
 		
-		
-		function foto11(x) {
-			document.getElementById('slide11').style.display = "block";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "1";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "0.3";
-		}
-		
-		function foto22(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "block";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "1";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "0.3";	
-		}
-		
-		function foto33(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "block";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "1";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "0.3";
-		}
-		
-		function foto44(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "block";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "1";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "0.3";
-		}
-		
-		function foto55(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "block";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "1";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "0.3";
-		}
-		
-		function foto66(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "block";
-			document.getElementById('slide77').style.display = "none";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "1";
-			document.getElementById('fotoo77').style.opacity = "0.3";
-		}
-		
-		function foto77(x) {
-			document.getElementById('slide11').style.display = "none";
-			document.getElementById('slide22').style.display = "none";
-			document.getElementById('slide33').style.display = "none";
-			document.getElementById('slide44').style.display = "none";
-			document.getElementById('slide55').style.display = "none";
-			document.getElementById('slide66').style.display = "none";
-			document.getElementById('slide77').style.display = "block";
-			document.getElementById('fotoo11').style.opacity = "0.3";
-			document.getElementById('fotoo22').style.opacity = "0.3";
-			document.getElementById('fotoo33').style.opacity = "0.3";
-			document.getElementById('fotoo44').style.opacity = "0.3";
-			document.getElementById('fotoo55').style.opacity = "0.3";
-			document.getElementById('fotoo66').style.opacity = "0.3";
-			document.getElementById('fotoo77').style.opacity = "1";
-		}
 	</script>
 </body>
 </html>
