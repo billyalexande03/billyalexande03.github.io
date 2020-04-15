@@ -1728,6 +1728,9 @@ section.group1 {
 		background-position: bottom center;
 	}
 	
+	.logo img {
+		margin-top: 2%;
+	}
 	.mask {
 		width: 15%;
 		display: none;
@@ -1764,7 +1767,145 @@ section.group1 {
 		padding-top: 5%;
 	}
 	
+	.menu1, .menu3, .menu4, .menu5 {
+		margin-left: 4%;
+		margin-right: 0%;
+	}
+	
+	.menu1 {
+		margin-right: 10%;
+	}
+	
+	.menu5 {
+		margin-left: 0%;
+	}
+	
+	.kiri {
+		width: 100%;
+		height: 10%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	
+	.block1, .block2, .block3, .block4, .block5, .block6 {
+		float: left;
+		height: 100%;
+		width: 30%;
+	}
+	
+	.block1 p, .block2 p, .block3 p, .block4 p, .block5 p, .block6 p {
+		font-size: 15px;
+	}
+	
+	.kanan {
+		width: 100%;
+		height: 90%;
+	}
+	
+	.baca1 {
+		width: 90%;
+	}
+
+	.grid2 {
+		grid-template-columns: 100%;
+		grid-template-rows: 25% 25% 25% 25%;
+		grid-template-areas: 
+			'gallery1'
+			'gallery2'
+			'gallery3'
+			'gallery4';
+		grid-gap: 0%;
+	}
+	
+	.gallery1 p {
+		padding-top: 10%;
+		font-size: 25px;
+		width: 90%;
+		line-height: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.gallery2 p, .gallery3 p, .gallery4 p {
+		padding-top: 20%;
+		font-size: 25px;
+		width: 90%;
+		line-height: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.choice {
+		grid-template-columns: 25% 25% 25% 25% 25% 25% 25%; 
+	}
+	
+	.grid {
+		grid-template-columns: 100%;
+		grid-template-rows: 25% 25% 25% 25%;
+		grid-template-areas: 
+			'season1'
+			'season2'
+			'season3'
+			'season4';
+		grid-gap: 0%;
+	}
+	
+	.season1 p, .season2 p, .season3 p, .season4 p {
+		padding-top: 15%;
+		font-size: 25px;
+	}
+	
+	.season1 h1, .season2 h1, .season3 h1, .season4 h1 {
+		font-size: 25px;
+		padding-top: 0%;
+	}
+	
+	section.container1 {
+		height: 70vh;
+	}
+	
+	.infonya {
+		width: 100%;
+		height: 60%;
+	}
+	
+	.episode {
+		margin-top: 0%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.minute {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.detailss {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.videoo {
+		height: 40%;
+		width: 100%;
+	}
+	
+	section.trailerr {
+		height: 15vh;
+	}
+	
+	.trailernya {
+		grid-template-columns: 25% 25% 25% 25% 25% 25% 25% 25%;
+	}
+	
+	.vid1 p, .vid2 p, .vid3 p, .vid4 p, .vid5 p, .vid6 p, .vid7 p {
+		padding-top: 40%;
+		font-size: 17px;
+	}
 }
+
 
 
 
